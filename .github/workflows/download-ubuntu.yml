@@ -16,4 +16,4 @@ jobs:
     - name: Download Ubuntu tar file
       run: |
            curl -L -o ubuntu.tar.gz https://releases.ubuntu.com/20.04/ubuntu-20.04.6-live-server-amd64.iso
-           tar -zcf ubuntu.tar.gz -C ./ubuntu
+           tar -zxvf ubuntu.tar.gz -C ./ubuntu
